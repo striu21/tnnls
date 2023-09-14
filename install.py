@@ -1,4 +1,4 @@
-import launch
+import sus
 
-if not launch.is_installed("pycloudflared"):
-    launch.run_pip("install pycloudflared", "pycloudflared")
+if not sus.is_installed("pycloudflared"):
+    sus.run_pip("install pycloudflared", "pycloudflared")
