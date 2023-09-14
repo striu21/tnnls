@@ -1,4 +1,4 @@
-import sus
+import fall
 
-if not sus.is_installed("pycloudflared"):
-    sus.run_pip("install pycloudflared", "pycloudflared")
+if not fall.is_installed("pycloudflared"):
+    fall.run_pip("install pycloudflared", "pycloudflared")
